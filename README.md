@@ -25,6 +25,8 @@ data was in a more accessible and
 standardized form for further exploration
 and preprocessing.
 
+![Image1](https://github.com/shivam-chavan-05/Emotion-Analysis-using-Kmeans/assets/144063863/26f6f99b-04cc-41f5-9c7e-49e25c69c111)
+
 #### Preprocessing
 During preprocessing, I tokenized the text to
 individual words, converted it to lowercase
@@ -34,6 +36,9 @@ lemmatized the words to normalize them
 and added a new column with preprocessed
 text. These steps improved data quality for
 subsequent analysis and modeling.
+
+![Image2](https://github.com/shivam-chavan-05/Emotion-Analysis-using-Kmeans/assets/144063863/3ef3e75e-b9bf-421a-a89b-22db401474bf)
+
 
 #### Feature Transformation
 Finally, I transformed the text into numerical
@@ -45,6 +50,9 @@ dataset. TF-IDF conversion enabled the text
 data to be effectively utilized for machine
 learning algorithm such as
 K-Means clustering.
+
+![Image3](https://github.com/shivam-chavan-05/Emotion-Analysis-using-Kmeans/assets/144063863/243c493a-c5ee-43a3-92f8-a8f470ce1441)
+
 
 ### K-Means Clustering
 #### Algorithm Implementation
@@ -65,6 +73,9 @@ including the TF-IDF matrix and additional
 metadata features, were used to fit the
 KMeans model.
 
+![Image4](https://github.com/shivam-chavan-05/Emotion-Analysis-using-Kmeans/assets/144063863/43917b19-2ff3-4378-90cb-56b82c54eaba)
+
+
 #### Optimal Clusters
 To find the best number of clusters for
 K-Means, I used two methods: the elbow
@@ -77,6 +88,12 @@ indicating how well each data point fits its
 assigned cluster. Higher scores imply better
 clustering. I found the optimal cluster count
 to be 6 using both methods.
+
+
+![Image 5](https://github.com/shivam-chavan-05/Emotion-Analysis-using-Kmeans/assets/144063863/4d3e6ca2-0ab4-49b6-8655-55c84be14312)
+
+
+![Image6](https://github.com/shivam-chavan-05/Emotion-Analysis-using-Kmeans/assets/144063863/3eebc36d-14a5-436b-92c4-04adf1cfff8c)
 
 ### Model Insights
 #### Performance Analysis
@@ -92,6 +109,9 @@ surprise, suggesting unexpected content in
 the text samples. In contrast, Cluster 4
 demonstrates a mix of emotions, with
 neutrality being the most frequent.
+
+![Image7](https://github.com/shivam-chavan-05/Emotion-Analysis-using-Kmeans/assets/144063863/2220a8bb-cde6-41ec-9306-e7e50a431731)
+
 
 #### Comparative Analysis
 SVM focuses on precise emotion
